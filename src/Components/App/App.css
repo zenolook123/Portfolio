@@ -1,21 +1,9 @@
-/* App.css */
 
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 50px;
-  box-sizing: border-box;
-}
-
-/* Add spacing between components */
 .App > * {
   margin: 20px 0;
 }
 
-/* Footer styles */
+
 .App-footer {
   margin-top: auto; /* Pushes the footer to the bottom */
   text-align: center; /* Centers the text inside the footer */
@@ -25,7 +13,6 @@
 
 /* Additional global styles for body, etc., can be added here */
 body {
-  background-color: darkgray;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",

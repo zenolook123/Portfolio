@@ -18,20 +18,30 @@ function App() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-          <ContactInfo />
+        <div style={{ display: 'flex', justifyContent: 'center', padding: '100px' }}>
           <AboutMe />
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div style={{marginRight:'100px'}}>
+            <ContactInfo />
+          </div>
+          <div>
+            <TechnicalSkills />
+          </div>
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'center', padding: '100px' }}>
           <Experience />
-          <TechnicalSkills />
-          <motion.footer 
-            className="App-footer"
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-          >
-            <Typography variant="body2" className="App-footer-text">
-              &copy; 2024 Zachary Garrison. All Rights Reserved.
-            </Typography>
-          </motion.footer>
+        </div>
+        <motion.footer
+          className="App-footer"
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Typography variant="body2" className="App-footer-text">
+            &copy; 2024 Zachary Garrison. All Rights Reserved.
+          </Typography>
+        </motion.footer>
       </motion.div>
     </div>
   );
