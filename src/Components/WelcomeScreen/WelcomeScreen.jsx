@@ -3,6 +3,7 @@ import { Box, Typography, IconButton } from '@mui/material';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import './WelcomeScreen.css';
 
+
 const WelcomeScreen = () => {
   const handleScroll = () => {
     window.scrollTo({
@@ -19,9 +20,9 @@ const WelcomeScreen = () => {
         <Typography variant="h4" component="h2" className="welcome-text" style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
           Software Developer
         </Typography>
-      <IconButton className="IconButton" onClick={handleScroll}>
-        <KeyboardArrowDownIcon style={{ fontSize: 80, color:'white' }} />
-      </IconButton>
+        <IconButton className="IconButton" onClick={handleScroll}>
+          <KeyboardArrowDownIcon style={{ fontSize: 80, color: 'white' }} />
+        </IconButton>
     </Box>
   );
 };

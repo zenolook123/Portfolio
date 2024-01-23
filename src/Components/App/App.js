@@ -18,7 +18,7 @@ function App() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div style={{ display: 'flex', justifyContent: 'center', padding: '100px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', padding: '5%' }}>
           <AboutMe />
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -29,7 +29,7 @@ function App() {
             <TechnicalSkills />
           </div>
         </div>
-        <div style={{ display: 'flex', justifyContent: 'center', padding: '100px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center'}}>
           <Experience />
         </div>
         <motion.footer
