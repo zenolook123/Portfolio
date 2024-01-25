@@ -43,6 +43,7 @@ const TechnicalSkills = () => {
         <li>Material-UI</li>
         <li>Bootstrap</li>
         <li>MVC/MVVM/SRP</li>
+        <li>C#</li>
     </ul>
   </section>
     </motion.div>
