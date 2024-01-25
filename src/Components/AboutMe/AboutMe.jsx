@@ -1,4 +1,4 @@
-import {Typography} from '@mui/material';
+import { Typography } from '@mui/material';
 
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
@@ -27,12 +27,15 @@ const AboutMe = () => {
       }}
     >
       <section className="About">
-<Typography variant="h4" className="App-section-title">About Me</Typography>
-<Typography>
-  Welcome to my portfolio! I am a passionate web developer with expertise in front-end technologies.
-  Let me tell you a bit about myself...
-</Typography>
-</section>
+        <Typography variant="h4" className="App-section-title">About Me</Typography>
+        <Typography>
+          A motivated and versatile Software Engineer with a background in management. Leveraging my client
+          relationship management skills and contributing to the world of technology in my own way. With
+          experience in leading teams with diverse responsibilities. I’m dedicated to broadening my technical
+          knowledge with an open mind for change and the urge to create a fulfilling experience for users and
+          creators alike.
+        </Typography>
+      </section>
     </motion.div>
   );
 };

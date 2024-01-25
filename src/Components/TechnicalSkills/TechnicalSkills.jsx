@@ -28,13 +28,22 @@ const TechnicalSkills = () => {
       <section className="TechnicalSkills">
     <Typography variant="h4" className="App-section-title">Technical Skills</Typography>
     <ul>
-      <li>JavaScript / ES6</li>
-      <li>Swift / UI-Kit / SwiftUI</li>
-      <li>React / JSX</li>
-      <li>Node.js</li>
-      <li>Express</li>
-      <li>REST APIs</li>
-      {/* Add more skills as needed */}
+    <li>JavaScript / ES6</li>
+        <li>Swift / UI-Kit / SwiftUI</li>
+        <li>React / JSX</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>REST APIs</li>
+        <li>SQL / PostgreSQL</li>
+        <li>HTML / HTML5</li>
+        <li>CSS / CSS3</li>
+        <li>Redux / Redux-Saga</li>
+        <li>Git / GitHub</li>
+        <li>Command Line / CLI</li>
+        <li>Material-UI</li>
+        <li>Bootstrap</li>
+        <li>MVC/MVVM/SRP</li>
+        <li>C#</li>
     </ul>
   </section>
     </motion.div>
